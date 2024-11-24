@@ -1,0 +1,27 @@
+[0.034s] Invoking command in '/home/ana/my_gazebo_tutorials/build/walker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/my_gazebo_tutorials/build/walker -- -j2 -l2
+[0.303s] [ 50%] [32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o[0m
+[12.623s] [100%] [32m[1mLinking CXX executable walker_node[0m
+[13.018s] [100%] Built target walker_node
+[13.032s] Invoked command in '/home/ana/my_gazebo_tutorials/build/walker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ana/my_gazebo_tutorials/build/walker -- -j2 -l2
+[13.079s] Invoking command in '/home/ana/my_gazebo_tutorials/build/walker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/my_gazebo_tutorials/build/walker
+[13.089s] -- Install configuration: ""
+[13.092s] -- Installing: /home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node
+[13.095s] -- Set runtime path of "/home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node" to ""
+[13.096s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch
+[13.096s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch/walker_launch.py
+[13.096s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/package_run_dependencies/walker
+[13.096s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/parent_prefix_path/walker
+[13.096s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.sh
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.dsv
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.sh
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.dsv
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.bash
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.sh
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.zsh
+[13.097s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.dsv
+[13.097s] -- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.dsv
+[13.098s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/packages/walker
+[13.099s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig.cmake
+[13.099s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig-version.cmake
+[13.099s] -- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.xml
+[13.100s] Invoked command in '/home/ana/my_gazebo_tutorials/build/walker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ana/my_gazebo_tutorials/build/walker

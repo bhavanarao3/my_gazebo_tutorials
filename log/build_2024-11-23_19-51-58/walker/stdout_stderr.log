@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target walker_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o[0m
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:[m[K In constructor ‘[01m[Kturtlebot_walker::turtlebot_walker()[m[K’:
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:79:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kturtlebot_walker::turn_clockwise[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |   bool [01;35m[Kturn_clockwise[m[K;              // Direction of the turn
+      |        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:77:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kturtlebot_walker::State turtlebot_walker::state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   77 |   State [01;35m[Kstate[m[K;                      // Current state of the robot
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:10:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 |   [01;35m[Kturtlebot_walker[m[K() : Node("turtlebot_walker"), turn_clockwise(true), state(State::MOVING_FORWARD) {
+      |   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable walker_node[0m
+[100%] Built target walker_node
+-- Install configuration: ""
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node
+-- Set runtime path of "/home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node" to ""
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch/walker_launch.py
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/package_run_dependencies/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/parent_prefix_path/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.bash
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.zsh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.dsv
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/packages/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig.cmake
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig-version.cmake
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.xml

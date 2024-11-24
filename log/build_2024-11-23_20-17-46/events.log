@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (walker) JobQueued: {'identifier': 'walker', 'dependencies': OrderedDict()}
+[0.000178] (walker) JobStarted: {'identifier': 'walker'}
+[0.009732] (walker) JobProgress: {'identifier': 'walker', 'progress': 'cmake'}
+[0.010945] (walker) JobProgress: {'identifier': 'walker', 'progress': 'build'}
+[0.011008] (walker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ana/my_gazebo_tutorials/build/walker', '--', '-j2', '-l2'], 'cwd': '/home/ana/my_gazebo_tutorials/build/walker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/my_gazebo_tutorials/build/walker'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[0.054247] (walker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target walker_node\x1b[0m\n'}
+[0.078880] (walker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o\x1b[0m\n'}
+[0.098412] (-) TimerEvent: {}
+[0.198781] (-) TimerEvent: {}
+[0.299981] (-) TimerEvent: {}
+[0.400823] (-) TimerEvent: {}
+[0.501689] (-) TimerEvent: {}
+[0.602201] (-) TimerEvent: {}
+[0.702709] (-) TimerEvent: {}
+[0.803203] (-) TimerEvent: {}
+[0.904019] (-) TimerEvent: {}
+[1.004633] (-) TimerEvent: {}
+[1.105318] (-) TimerEvent: {}
+[1.206004] (-) TimerEvent: {}
+[1.306581] (-) TimerEvent: {}
+[1.407115] (-) TimerEvent: {}
+[1.507768] (-) TimerEvent: {}
+[1.608406] (-) TimerEvent: {}
+[1.709035] (-) TimerEvent: {}
+[1.759999] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:16:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWalker\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.760248] (walker) StderrLine: {'line': b'   16 |     virtual void handleObstacle(\x1b[01;31m\x1b[KWalker\x1b[m\x1b[K &walker, const sensor_msgs::msg::LaserScan &scan) = 0;\n'}
+[1.760294] (walker) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.760332] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWalker\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.760931] (walker) StderrLine: {'line': b'   17 |     virtual void move(\x1b[01;31m\x1b[KWalker\x1b[m\x1b[K &walker) = 0;\n'}
+[1.761047] (walker) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.794387] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWalker::Walker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.794733] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<State>::shared_ptr(std::shared_ptr<MovingForward>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.794789] (walker) StderrLine: {'line': b'   26 |           \x1b[01;31m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.794831] (walker) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.795717] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.795884] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.795933] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.795972] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.796021] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:408:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = _Alloc; _Args = {_Args ...}; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.796071] (walker) StderrLine: {'line': b'  408 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[1.796108] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.796149] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:408:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.796189] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.796226] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.796262] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.796299] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.796336] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.796391] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.796431] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.798223] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:340:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; <template-parameter-2-3> = <template-parameter-1-3>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.798331] (walker) StderrLine: {'line': b'  340 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[1.798384] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.798504] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:340:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.798571] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.798617] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.798652] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.798685] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.798718] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.798754] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.798800] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.798840] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:332:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&) [with _Yp = _Tp1; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.798875] (walker) StderrLine: {'line': b'  332 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[1.798910] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.798944] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:332:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.798978] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.799014] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.799048] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.799084] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.799117] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.799149] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.799182] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.799215] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.799250] (walker) StderrLine: {'line': b'  325 |         explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[1.799283] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.799317] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:325:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.799350] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.799396] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.799431] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.799465] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.799497] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.799529] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.799562] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.799597] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:313:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.799631] (walker) StderrLine: {'line': b'  313 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[1.799680] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.799713] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:313:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.799749] (walker) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {std::shared_ptr<MovingForward>}; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.799785] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:312:30:\x1b[m\x1b[K   required from here\n'}
+[1.802414] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:125:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.802571] (walker) StderrLine: {'line': b'  125 |         using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[1.802614] (walker) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.802650] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:296:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.802699] (walker) StderrLine: {'line': b'  296 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[1.802736] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.802770] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:296:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.802805] (walker) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {const std::shared_ptr<MovingForward>&}; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.802841] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:295:9:\x1b[m\x1b[K   required from here\n'}
+[1.802875] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:125:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.802911] (walker) StderrLine: {'line': b'  125 |         using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[1.802944] (walker) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.802981] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:257:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*) [with _Yp = _Yp; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.803025] (walker) StderrLine: {'line': b'  257 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[1.803061] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.803094] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:257:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.803396] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.803461] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.803498] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.803533] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.803570] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.803605] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.803640] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.803675] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:233:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc) [with _Deleter = _Deleter; _Alloc = _Alloc; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.803710] (walker) StderrLine: {'line': b'  233 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[1.803744] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.803777] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:233:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.803811] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.803849] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.803883] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.803916] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.803950] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.803983] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.804017] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.804051] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc) [with _Yp = _Yp; _Deleter = _Deleter; _Alloc = _Alloc; <template-parameter-2-4> = <template-parameter-1-4>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804089] (walker) StderrLine: {'line': b'  214 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[1.804125] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804159] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:214:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.804194] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804230] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.804263] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804296] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.804329] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.804370] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.804407] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.804442] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:194:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter) [with _Deleter = _Deleter; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804476] (walker) StderrLine: {'line': b'  194 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[1.804509] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804543] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:194:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.804577] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.804612] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.804644] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804678] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.804711] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.804744] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.804777] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.804810] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:177:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter) [with _Yp = _Yp; _Deleter = _Deleter; <template-parameter-2-3> = <template-parameter-1-3>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804846] (walker) StderrLine: {'line': b'  177 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[1.804883] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804917] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:177:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.804951] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.804990] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.805024] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.805057] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.805090] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.805126] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.805160] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.805193] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:160:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*) [with _Yp = _Yp; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.805229] (walker) StderrLine: {'line': b'  160 |         \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[1.805262] (walker) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.805295] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:160:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.805329] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Yp*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807408] (walker) StderrLine: {'line': b'   26 |           \x1b[01;36m\x1b[Kstate(std::make_shared<MovingForward>())\x1b[m\x1b[K {\n'}
+[1.807510] (walker) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.807550] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.807586] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.807622] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.807657] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.807692] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:417:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807729] (walker) StderrLine: {'line': b'  417 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t) noexcept\n'}
+[1.807766] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.807803] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:417:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.807838] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:357:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = State; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807873] (walker) StderrLine: {'line': b'  357 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[1.807906] (walker) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.807941] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:357:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.807976] (walker) StderrLine: {'line': b'  357 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[1.808011] (walker) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.808046] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:304:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808080] (walker) StderrLine: {'line': b'  304 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[1.808133] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.808168] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:304:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<State>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808204] (walker) StderrLine: {'line': b'  304 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[1.808236] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.808271] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:150:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808304] (walker) StderrLine: {'line': b'  150 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default; ///< Copy constructor\n'}
+[1.808336] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.808373] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:150:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MovingForward>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<State>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808409] (walker) StderrLine: {'line': b'  150 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default; ///< Copy constructor\n'}
+[1.808443] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.808475] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:148:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = State]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.808509] (walker) StderrLine: {'line': b'  148 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[1.808541] (walker) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.808573] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:148:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[1.810387] (-) TimerEvent: {}
+[1.812319] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Walker::LaserDataCB(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.812439] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:39:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KWalker\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.812505] (walker) StderrLine: {'line': b'   39 |         state->handleObstacle(\x1b[01;31m\x1b[K*this\x1b[m\x1b[K, scan);  // Handle obstacle detection\n'}
+[1.812574] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.812678] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.812754] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[KWalker\x1b[m\x1b[K\n'}
+[1.813266] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:16:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::handleObstacle(int&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.813376] (walker) StderrLine: {'line': b'   16 |     virtual void handleObstacle(\x1b[01;36m\x1b[KWalker &walker\x1b[m\x1b[K, const sensor_msgs::msg::LaserScan &scan) = 0;\n'}
+[1.813457] (walker) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.815718] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.815844] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:65:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MovingForward::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.815924] (walker) StderrLine: {'line': b'   65 |     void \x1b[01;31m\x1b[KhandleObstacle\x1b[m\x1b[K(Walker &walker, const sensor_msgs::msg::LaserScan &scan) override {\n'}
+[1.815994] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.816095] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:78:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MovingForward::move(Walker&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.816165] (walker) StderrLine: {'line': b'   78 |     void \x1b[01;31m\x1b[Kmove\x1b[m\x1b[K(Walker &walker) override {\n'}
+[1.816233] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.823586] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MovingForward::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.823741] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:74:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KRotatingClockwise\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KState\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.823793] (walker) StderrLine: {'line': b'   74 |             walker.setState(\x1b[01;31m\x1b[Kstd::make_shared<RotatingClockwise>()\x1b[m\x1b[K);\n'}
+[1.823831] (walker) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.823866] (walker) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.823899] (walker) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[Kshared_ptr<RotatingClockwise>\x1b[m\x1b[K\n'}
+[1.823937] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:43:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid Walker::setState(std::shared_ptr<State>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.823972] (walker) StderrLine: {'line': b'   43 |     void setState(\x1b[01;36m\x1b[Kstd::shared_ptr<State> newState\x1b[m\x1b[K) {\n'}
+[1.824005] (walker) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.824037] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.824069] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:90:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingClockwise::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.824104] (walker) StderrLine: {'line': b'   90 |     void \x1b[01;31m\x1b[KhandleObstacle\x1b[m\x1b[K(Walker &walker, const sensor_msgs::msg::LaserScan &scan) override {\n'}
+[1.824138] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824170] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:103:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingClockwise::move(Walker&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.824203] (walker) StderrLine: {'line': b'  103 |     void \x1b[01;31m\x1b[Kmove\x1b[m\x1b[K(Walker &walker) override {\n'}
+[1.824236] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.824267] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingClockwise::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.824300] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:99:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KMovingForward\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KState\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.824333] (walker) StderrLine: {'line': b'   99 |             walker.setState(\x1b[01;31m\x1b[Kstd::make_shared<MovingForward>()\x1b[m\x1b[K);\n'}
+[1.824387] (walker) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.824422] (walker) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.824459] (walker) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[Kshared_ptr<MovingForward>\x1b[m\x1b[K\n'}
+[1.824493] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:43:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid Walker::setState(std::shared_ptr<State>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.824531] (walker) StderrLine: {'line': b'   43 |     void setState(\x1b[01;36m\x1b[Kstd::shared_ptr<State> newState\x1b[m\x1b[K) {\n'}
+[1.824563] (walker) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.824596] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.824628] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:115:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingCounterClockwise::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.824661] (walker) StderrLine: {'line': b'  115 |     void \x1b[01;31m\x1b[KhandleObstacle\x1b[m\x1b[K(Walker &walker, const sensor_msgs::msg::LaserScan &scan) override {\n'}
+[1.824693] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824724] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:128:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingCounterClockwise::move(Walker&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.824756] (walker) StderrLine: {'line': b'  128 |     void \x1b[01;31m\x1b[Kmove\x1b[m\x1b[K(Walker &walker) override {\n'}
+[1.824788] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.824820] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RotatingCounterClockwise::handleObstacle(Walker&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.824853] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:124:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KMovingForward\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KState\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.824898] (walker) StderrLine: {'line': b'  124 |             walker.setState(\x1b[01;31m\x1b[Kstd::make_shared<MovingForward>()\x1b[m\x1b[K);\n'}
+[1.824931] (walker) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.824965] (walker) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.824998] (walker) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[Kshared_ptr<MovingForward>\x1b[m\x1b[K\n'}
+[1.825030] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:43:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid Walker::setState(std::shared_ptr<State>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.825066] (walker) StderrLine: {'line': b'   43 |     void setState(\x1b[01;36m\x1b[Kstd::shared_ptr<State> newState\x1b[m\x1b[K) {\n'}
+[1.825098] (walker) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.911484] (-) TimerEvent: {}
+[2.012125] (-) TimerEvent: {}
+[2.112774] (-) TimerEvent: {}
+[2.213268] (-) TimerEvent: {}
+[2.312724] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.313150] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.313335] (-) TimerEvent: {}
+[2.313588] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[2.314316] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[2.314379] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.314419] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.314454] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.314489] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.314524] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.314557] (walker) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MovingForward; _Args = {}; _Tp = MovingForward]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.314595] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MovingForward; _Args = {}; _Tp = MovingForward; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MovingForward>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314639] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MovingForward; _Alloc = std::allocator<MovingForward>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314682] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MovingForward; _Alloc = std::allocator<MovingForward>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314721] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MovingForward>; _Args = {}; _Tp = MovingForward; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314756] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MovingForward>; _Args = {}; _Tp = MovingForward]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314792] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MovingForward; _Alloc = std::allocator<MovingForward>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314827] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MovingForward; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314865] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:26:48:\x1b[m\x1b[K   required from here\n'}
+[2.314899] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[KMovingForward\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.314936] (walker) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.314971] (walker) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.315028] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:63:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[KMovingForward\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.315063] (walker) StderrLine: {'line': b'   63 | class \x1b[01;36m\x1b[KMovingForward\x1b[m\x1b[K : public State {\n'}
+[2.315097] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.315131] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:16:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::handleObstacle(int&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.315165] (walker) StderrLine: {'line': b'   16 |     virtual void \x1b[01;36m\x1b[KhandleObstacle\x1b[m\x1b[K(Walker &walker, const sensor_msgs::msg::LaserScan &scan) = 0;\n'}
+[2.315199] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.317780] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:17:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::move(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.317864] (walker) StderrLine: {'line': b'   17 |     virtual void \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(Walker &walker) = 0;\n'}
+[2.317904] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.338891] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.340582] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.340634] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[2.340674] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[2.340711] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.340748] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.340784] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.340820] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.340856] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.340890] (walker) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RotatingClockwise; _Args = {}; _Tp = RotatingClockwise]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.340929] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RotatingClockwise; _Args = {}; _Tp = RotatingClockwise; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<RotatingClockwise>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.340988] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = RotatingClockwise; _Alloc = std::allocator<RotatingClockwise>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341024] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RotatingClockwise; _Alloc = std::allocator<RotatingClockwise>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341059] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RotatingClockwise>; _Args = {}; _Tp = RotatingClockwise; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341094] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RotatingClockwise>; _Args = {}; _Tp = RotatingClockwise]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341133] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RotatingClockwise; _Alloc = std::allocator<RotatingClockwise>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341169] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RotatingClockwise; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341206] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:74:64:\x1b[m\x1b[K   required from here\n'}
+[2.341240] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[KRotatingClockwise\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341275] (walker) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.341310] (walker) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341344] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:88:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[KRotatingClockwise\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.341396] (walker) StderrLine: {'line': b'   88 | class \x1b[01;36m\x1b[KRotatingClockwise\x1b[m\x1b[K : public State {\n'}
+[2.341434] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341468] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:16:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::handleObstacle(int&, const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341507] (walker) StderrLine: {'line': b'   16 |     virtual void \x1b[01;36m\x1b[KhandleObstacle\x1b[m\x1b[K(Walker &walker, const sensor_msgs::msg::LaserScan &scan) = 0;\n'}
+[2.341541] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341575] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:17:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::move(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341609] (walker) StderrLine: {'line': b'   17 |     virtual void \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(Walker &walker) = 0;\n'}
+[2.341643] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.413585] (-) TimerEvent: {}
+[2.514688] (-) TimerEvent: {}
+[2.615379] (-) TimerEvent: {}
+[2.715812] (-) TimerEvent: {}
+[2.816808] (-) TimerEvent: {}
+[2.917541] (-) TimerEvent: {}
+[3.018503] (-) TimerEvent: {}
+[3.119454] (-) TimerEvent: {}
+[3.219767] (-) TimerEvent: {}
+[3.320329] (-) TimerEvent: {}
+[3.420729] (-) TimerEvent: {}
+[3.521237] (-) TimerEvent: {}
+[3.621917] (-) TimerEvent: {}
+[3.707922] (walker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/walker_node.dir/build.make:76: CMakeFiles/walker_node.dir/src/walker_node.cpp.o] Error 1\n'}
+[3.708401] (walker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/walker_node.dir/all] Error 2\n'}
+[3.708607] (walker) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.712549] (walker) CommandEnded: {'returncode': 2}
+[3.722086] (-) TimerEvent: {}
+[3.752770] (walker) JobEnded: {'identifier': 'walker', 'rc': 2}
+[3.763529] (-) EventReactorShutdown: {}

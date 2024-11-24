@@ -1,0 +1,10 @@
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:[m[K In constructor ‘[01m[Kturtlebot_walker::turtlebot_walker()[m[K’:
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:79:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kturtlebot_walker::turn_clockwise[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |   bool [01;35m[Kturn_clockwise[m[K;              // Direction of the turn
+      |        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:77:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kturtlebot_walker::State turtlebot_walker::state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   77 |   State [01;35m[Kstate[m[K;                      // Current state of the robot
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:10:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   10 |   [01;35m[Kturtlebot_walker[m[K() : Node("turtlebot_walker"), turn_clockwise(true), state(State::MOVING_FORWARD) {
+      |   [01;35m[K^~~~~~~~~~~~~~~~[m[K

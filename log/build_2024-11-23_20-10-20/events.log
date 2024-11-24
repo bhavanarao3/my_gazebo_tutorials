@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (walker) JobQueued: {'identifier': 'walker', 'dependencies': OrderedDict()}
+[0.000492] (walker) JobStarted: {'identifier': 'walker'}
+[0.008477] (walker) JobProgress: {'identifier': 'walker', 'progress': 'cmake'}
+[0.009148] (walker) JobProgress: {'identifier': 'walker', 'progress': 'build'}
+[0.009647] (walker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ana/my_gazebo_tutorials/build/walker', '--', '-j2', '-l2'], 'cwd': '/home/ana/my_gazebo_tutorials/build/walker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/my_gazebo_tutorials/build/walker'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[0.057296] (walker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target walker_node\x1b[0m\n'}
+[0.075755] (walker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o\x1b[0m\n'}
+[0.099096] (-) TimerEvent: {}
+[0.200010] (-) TimerEvent: {}
+[0.300406] (-) TimerEvent: {}
+[0.401623] (-) TimerEvent: {}
+[0.501956] (-) TimerEvent: {}
+[0.602429] (-) TimerEvent: {}
+[0.702745] (-) TimerEvent: {}
+[0.803316] (-) TimerEvent: {}
+[0.903921] (-) TimerEvent: {}
+[1.004497] (-) TimerEvent: {}
+[1.105471] (-) TimerEvent: {}
+[1.205981] (-) TimerEvent: {}
+[1.306441] (-) TimerEvent: {}
+[1.407136] (-) TimerEvent: {}
+[1.508042] (-) TimerEvent: {}
+[1.608813] (-) TimerEvent: {}
+[1.709162] (-) TimerEvent: {}
+[1.809743] (-) TimerEvent: {}
+[1.910217] (-) TimerEvent: {}
+[2.010652] (-) TimerEvent: {}
+[2.111212] (-) TimerEvent: {}
+[2.211727] (-) TimerEvent: {}
+[2.312291] (-) TimerEvent: {}
+[2.412860] (-) TimerEvent: {}
+[2.513407] (-) TimerEvent: {}
+[2.613930] (-) TimerEvent: {}
+[2.714531] (-) TimerEvent: {}
+[2.814910] (-) TimerEvent: {}
+[2.916167] (-) TimerEvent: {}
+[3.017111] (-) TimerEvent: {}
+[3.117716] (-) TimerEvent: {}
+[3.218308] (-) TimerEvent: {}
+[3.318679] (-) TimerEvent: {}
+[3.419585] (-) TimerEvent: {}
+[3.520835] (-) TimerEvent: {}
+[3.621776] (-) TimerEvent: {}
+[3.722809] (-) TimerEvent: {}
+[3.823764] (-) TimerEvent: {}
+[3.924173] (-) TimerEvent: {}
+[4.024434] (-) TimerEvent: {}
+[4.124840] (-) TimerEvent: {}
+[4.225235] (-) TimerEvent: {}
+[4.325674] (-) TimerEvent: {}
+[4.426158] (-) TimerEvent: {}
+[4.526831] (-) TimerEvent: {}
+[4.627827] (-) TimerEvent: {}
+[4.728400] (-) TimerEvent: {}
+[4.829110] (-) TimerEvent: {}
+[4.929665] (-) TimerEvent: {}
+[5.030071] (-) TimerEvent: {}
+[5.130453] (-) TimerEvent: {}
+[5.230829] (-) TimerEvent: {}
+[5.331269] (-) TimerEvent: {}
+[5.431923] (-) TimerEvent: {}
+[5.532401] (-) TimerEvent: {}
+[5.632974] (-) TimerEvent: {}
+[5.733248] (-) TimerEvent: {}
+[5.833773] (-) TimerEvent: {}
+[5.934363] (-) TimerEvent: {}
+[6.034915] (-) TimerEvent: {}
+[6.135214] (-) TimerEvent: {}
+[6.235562] (-) TimerEvent: {}
+[6.336046] (-) TimerEvent: {}
+[6.436843] (-) TimerEvent: {}
+[6.537352] (-) TimerEvent: {}
+[6.538574] (walker) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable walker_node\x1b[0m\n'}
+[6.637572] (-) TimerEvent: {}
+[6.737858] (-) TimerEvent: {}
+[6.838808] (-) TimerEvent: {}
+[6.860706] (walker) StdoutLine: {'line': b'[100%] Built target walker_node\n'}
+[6.874464] (walker) CommandEnded: {'returncode': 0}
+[6.905012] (walker) JobProgress: {'identifier': 'walker', 'progress': 'install'}
+[6.912590] (walker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ana/my_gazebo_tutorials/build/walker'], 'cwd': '/home/ana/my_gazebo_tutorials/build/walker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/my_gazebo_tutorials/build/walker'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[6.920756] (walker) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.921107] (walker) StdoutLine: {'line': b'-- Installing: /home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node\n'}
+[6.928777] (walker) StdoutLine: {'line': b'-- Set runtime path of "/home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node" to ""\n'}
+[6.929216] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch\n'}
+[6.929525] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch/walker_launch.py\n'}
+[6.929585] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/package_run_dependencies/walker\n'}
+[6.929627] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/parent_prefix_path/walker\n'}
+[6.929664] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.sh\n'}
+[6.929699] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.dsv\n'}
+[6.929733] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.sh\n'}
+[6.929984] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.dsv\n'}
+[6.930033] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.bash\n'}
+[6.930073] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.sh\n'}
+[6.930110] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.zsh\n'}
+[6.930148] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.dsv\n'}
+[6.930394] (walker) StdoutLine: {'line': b'-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.dsv\n'}
+[6.930479] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/packages/walker\n'}
+[6.930588] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig.cmake\n'}
+[6.930670] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig-version.cmake\n'}
+[6.930759] (walker) StdoutLine: {'line': b'-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.xml\n'}
+[6.932351] (walker) CommandEnded: {'returncode': 0}
+[6.939077] (-) TimerEvent: {}
+[6.978754] (walker) JobEnded: {'identifier': 'walker', 'rc': 0}
+[6.979700] (-) EventReactorShutdown: {}

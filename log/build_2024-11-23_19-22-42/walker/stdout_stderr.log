@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target walker_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o[0m
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:[m[K In member function ‘[01m[Kvoid turtlebot_walker::scan_callback(const LaserScan&)[m[K’:
+[01m[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:21:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_ranges[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   21 |         int [01;35m[Knum_ranges[m[K = scan_msg.ranges.size();
+      |             [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable walker_node[0m
+[100%] Built target walker_node
+-- Install configuration: ""
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node
+-- Set runtime path of "/home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node" to ""
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch/walker_launch.py
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/package_run_dependencies/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/parent_prefix_path/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.bash
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.zsh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.dsv
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/packages/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig.cmake
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig-version.cmake
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.xml

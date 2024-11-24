@@ -1,0 +1,458 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (walker) JobQueued: {'identifier': 'walker', 'dependencies': OrderedDict()}
+[0.000745] (walker) JobStarted: {'identifier': 'walker'}
+[0.011936] (walker) JobProgress: {'identifier': 'walker', 'progress': 'cmake'}
+[0.012058] (walker) JobProgress: {'identifier': 'walker', 'progress': 'build'}
+[0.012129] (walker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ana/my_gazebo_tutorials/build/walker', '--', '-j2', '-l2'], 'cwd': '/home/ana/my_gazebo_tutorials/build/walker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ana'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ana'), ('OLDPWD', '/home/ana'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1837'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ana'), ('_', '/home/ana/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ana'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ana/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ana-virtual-machine:@/tmp/.ICE-unix/1666,unix/ana-virtual-machine:/tmp/.ICE-unix/1666'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/68953365_f178_41e1_b7cf_0002ff10744b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5HHZX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('TURTLEBOT3_GAZEBO_DIR', '/opt/ros/humble/share/turtlebot3_gazebo/launch'), ('PWD', '/home/ana/my_gazebo_tutorials/build/walker'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ana/my_gazebo_tutorials/install/walker::/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble/share/gazebo_msgs:/opt/ros/humble')]), 'shell': False}
+[0.071674] (walker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target walker_node\x1b[0m\n'}
+[0.088204] (walker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/walker_node.dir/src/walker_node.cpp.o\x1b[0m\n'}
+[0.100705] (-) TimerEvent: {}
+[0.201110] (-) TimerEvent: {}
+[0.301379] (-) TimerEvent: {}
+[0.401690] (-) TimerEvent: {}
+[0.502031] (-) TimerEvent: {}
+[0.603181] (-) TimerEvent: {}
+[0.703690] (-) TimerEvent: {}
+[0.804181] (-) TimerEvent: {}
+[0.904476] (-) TimerEvent: {}
+[1.005267] (-) TimerEvent: {}
+[1.105944] (-) TimerEvent: {}
+[1.206420] (-) TimerEvent: {}
+[1.307669] (-) TimerEvent: {}
+[1.407997] (-) TimerEvent: {}
+[1.508916] (-) TimerEvent: {}
+[1.609424] (-) TimerEvent: {}
+[1.709882] (-) TimerEvent: {}
+[1.810236] (-) TimerEvent: {}
+[1.838331] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:114:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLaserDataCB\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.838645] (walker) StderrLine: {'line': b'  114 |     virtual void handle(\x1b[01;31m\x1b[KLaserDataCB\x1b[m\x1b[K(scan)) = 0;\n'}
+[1.838705] (walker) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.868065] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWalker::Walker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.868471] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:170:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWalker::current_state\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.868705] (walker) StderrLine: {'line': b'  170 |     std::shared_ptr<State> \x1b[01;35m\x1b[Kcurrent_state\x1b[m\x1b[K;  // Current state of the walker\n'}
+[1.868823] (walker) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.868860] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:166:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool Walker::path_clear\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.868898] (walker) StderrLine: {'line': b'  166 |     bool \x1b[01;35m\x1b[Kpath_clear\x1b[m\x1b[K;       // Indicates if the path ahead is clear\n'}
+[1.868936] (walker) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.869015] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:123:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.869067] (walker) StderrLine: {'line': b'  123 |     \x1b[01;35m\x1b[KWalker\x1b[m\x1b[K()\n'}
+[1.869106] (walker) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.882429] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:135:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMoveForwardState\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.882877] (walker) StderrLine: {'line': b'  135 |         setState(std::make_shared<\x1b[01;31m\x1b[KMoveForwardState\x1b[m\x1b[K>());\n'}
+[1.883112] (walker) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.883329] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:135:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.883372] (walker) StderrLine: {'line': b'  135 |         setState(\x1b[01;31m\x1b[Kstd::make_shared<MoveForwardState>()\x1b[m\x1b[K);\n'}
+[1.883410] (walker) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.883447] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.883484] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.883522] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.883558] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:100\x1b[m\x1b[K:\n'}
+[1.883595] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.883641] (walker) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.883680] (walker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.883716] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.883752] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:135:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.883790] (walker) StderrLine: {'line': b'  135 |         setState(\x1b[01;31m\x1b[Kstd::make_shared<MoveForwardState>()\x1b[m\x1b[K);\n'}
+[1.883826] (walker) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.885663] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Walker::LaserDataCB(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.885884] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:150:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst LaserScan\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.885943] (walker) StderrLine: {'line': b'  150 |             current_state->handle(\x1b[01;31m\x1b[Kscan\x1b[m\x1b[K);\n'}
+[1.885981] (walker) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.886022] (walker) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.886057] (walker) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[Kconst LaserScan {aka const sensor_msgs::msg::LaserScan_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[1.886098] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:114:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::handle(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.886133] (walker) StderrLine: {'line': b'  114 |     virtual void handle(\x1b[01;36m\x1b[KLaserDataCB(scan)\x1b[m\x1b[K) = 0;\n'}
+[1.886168] (walker) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.886202] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.886236] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:176:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MoveForwardState::handle(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.886272] (walker) StderrLine: {'line': b'  176 |     void \x1b[01;31m\x1b[Khandle\x1b[m\x1b[K(const sensor_msgs::msg::LaserScan &scan) override {\n'}
+[1.886306] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.886340] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.886374] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.886408] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.886442] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.886475] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.886508] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.886541] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.886575] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.886609] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.886655] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.886690] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.886723] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveForwardState::handle(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.886757] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.886793] (walker) StderrLine: {'line': b'  188 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.886827] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.886861] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.886898] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.886931] (walker) StderrLine: {'line': b'  188 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.886964] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.886999] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.891626] (walker) StderrLine: {'line': b'  188 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.893456] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.893549] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.893596] (walker) StderrLine: {'line': b'  188 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.893649] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.893692] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.893735] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.893776] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.893817] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.897221] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.897305] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.897436] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.897483] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.897529] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.897573] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.897614] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.897711] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.897753] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.897795] (walker) StderrLine: {'line': b'  188 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.897847] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.897881] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:188:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.897916] (walker) StderrLine: {'line': b'  188 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Obstacle detected! Switching to Rotate state...");\n'}
+[1.897950] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.897989] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:189:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRotateState\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.898030] (walker) StderrLine: {'line': b'  189 |             walker_->setState(std::make_shared<\x1b[01;31m\x1b[KRotateState\x1b[m\x1b[K>());\n'}
+[1.898073] (walker) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.898113] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:189:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.898155] (walker) StderrLine: {'line': b'  189 |             walker_->setState(\x1b[01;31m\x1b[Kstd::make_shared<RotateState>()\x1b[m\x1b[K);\n'}
+[1.898196] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.898236] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.898276] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:10\x1b[m\x1b[K,\n'}
+[1.898331] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.898382] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:100\x1b[m\x1b[K:\n'}
+[1.898425] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.898467] (walker) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.898506] (walker) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.898641] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.898694] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:189:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.898732] (walker) StderrLine: {'line': b'  189 |             walker_->setState(\x1b[01;31m\x1b[Kstd::make_shared<RotateState>()\x1b[m\x1b[K);\n'}
+[1.898768] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.898804] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.898838] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.898879] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.898916] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.898952] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.898990] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.899031] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.899077] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.899116] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.899155] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.899189] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.899226] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.899262] (walker) StderrLine: {'line': b'  192 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Moving forward...");\n'}
+[1.899295] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.899348] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.899388] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.899425] (walker) StderrLine: {'line': b'  192 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Moving forward...");\n'}
+[1.899465] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.899499] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.903449] (walker) StderrLine: {'line': b'  192 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Moving forward...");\n'}
+[1.903495] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.903531] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.903566] (walker) StderrLine: {'line': b'  192 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Moving forward...");\n'}
+[1.903601] (walker) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.903642] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.903677] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.903717] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.903751] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.903784] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.903818] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.903851] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.903885] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.903918] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.903954] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.903987] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.904021] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.904054] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.904088] (walker) StderrLine: {'line': b'  192 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Moving forward...");\n'}
+[1.904122] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904154] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:192:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.904190] (walker) StderrLine: {'line': b'  192 |             RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Moving forward...");\n'}
+[1.904224] (walker) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904257] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.904291] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.904325] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.904469] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.904570] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.904611] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.904670] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.904706] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.904741] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.904779] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.904812] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.904845] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void MoveForwardState::enter(Walker*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.904889] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.904926] (walker) StderrLine: {'line': b'  198 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Move Forward state.");\n'}
+[1.904961] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.905034] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.905072] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.905109] (walker) StderrLine: {'line': b'  198 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Move Forward state.");\n'}
+[1.905144] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.910822] (-) TimerEvent: {}
+[1.910988] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.911047] (walker) StderrLine: {'line': b'  198 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Move Forward state.");\n'}
+[1.911086] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.911122] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.911157] (walker) StderrLine: {'line': b'  198 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Move Forward state.");\n'}
+[1.911191] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.911224] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.911268] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.911303] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.911337] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.911369] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.911403] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.911436] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.911475] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.911509] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.911542] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.911575] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.911608] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.911655] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.911695] (walker) StderrLine: {'line': b'  198 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Move Forward state.");\n'}
+[1.911731] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.911768] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:198:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.911804] (walker) StderrLine: {'line': b'  198 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Move Forward state.");\n'}
+[1.912220] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.912286] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.912323] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.912361] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.912395] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.912473] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.912553] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.912591] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.912626] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.912674] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.916653] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.916693] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.916727] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void MoveForwardState::exit(Walker*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.916761] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.916804] (walker) StderrLine: {'line': b'  202 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Move Forward state.");\n'}
+[1.916837] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.916870] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.916903] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.916935] (walker) StderrLine: {'line': b'  202 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Move Forward state.");\n'}
+[1.916993] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917026] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.917059] (walker) StderrLine: {'line': b'  202 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Move Forward state.");\n'}
+[1.917090] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917122] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.917155] (walker) StderrLine: {'line': b'  202 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Move Forward state.");\n'}
+[1.917186] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917218] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.917251] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.917282] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.917314] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.917346] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.917378] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.917409] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.917441] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.917473] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.917504] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.917535] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.917566] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.917600] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.917642] (walker) StderrLine: {'line': b'  202 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Move Forward state.");\n'}
+[1.917678] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917710] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:202:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MoveForwardState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.917744] (walker) StderrLine: {'line': b'  202 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Move Forward state.");\n'}
+[1.917776] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917810] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:201:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kwalker\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.917854] (walker) StderrLine: {'line': b'  201 |     void exit(\x1b[01;35m\x1b[KWalker* walker\x1b[m\x1b[K) override {\n'}
+[1.917890] (walker) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.917924] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.917958] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:212:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid RotateState::handle(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[1.917993] (walker) StderrLine: {'line': b'  212 |     void \x1b[01;31m\x1b[Khandle\x1b[m\x1b[K(const sensor_msgs::msg::LaserScan &scan) override {\n'}
+[1.918026] (walker) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.918060] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.918095] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.918130] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.918166] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.918203] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.918238] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.918273] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.918308] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.918342] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.918379] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.918414] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.918451] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RotateState::handle(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.918486] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.918523] (walker) StderrLine: {'line': b'  214 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Rotating %s...",\n'}
+[1.918558] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.918593] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.924703] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.924806] (walker) StderrLine: {'line': b'  214 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Rotating %s...",\n'}
+[1.924848] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.924884] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.924919] (walker) StderrLine: {'line': b'  214 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Rotating %s...",\n'}
+[1.924955] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.924989] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.925025] (walker) StderrLine: {'line': b'  214 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Rotating %s...",\n'}
+[1.925059] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925093] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.925129] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.925162] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.925206] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.925241] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.925276] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.925308] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.925341] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.925448] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.925492] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.925528] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.925563] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.925597] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.925644] (walker) StderrLine: {'line': b'  214 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Rotating %s...",\n'}
+[1.925680] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925714] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:214:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.925751] (walker) StderrLine: {'line': b'  214 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Rotating %s...",\n'}
+[1.925785] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925820] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.925853] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.925889] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.925922] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.925954] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.925987] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.926019] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.926051] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.926085] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.926118] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.926151] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.926184] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RotateState::enter(Walker*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.926217] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.926253] (walker) StderrLine: {'line': b'  225 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Rotate state.");\n'}
+[1.926291] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.926325] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.926359] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.926393] (walker) StderrLine: {'line': b'  225 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Rotate state.");\n'}
+[1.926428] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.926461] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.926494] (walker) StderrLine: {'line': b'  225 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Rotate state.");\n'}
+[1.926527] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.926560] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.926594] (walker) StderrLine: {'line': b'  225 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Entering Rotate state.");\n'}
+[1.931716] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.931790] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.931851] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.931900] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.931939] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.931975] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.932009] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.932044] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.932078] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.932112] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.932148] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.932185] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.932219] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.932253] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.932586] (walker) StderrLine: {'line': b'  225 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Rotate state.");\n'}
+[1.932632] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.932672] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:225:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.932707] (walker) StderrLine: {'line': b'  225 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Entering Rotate state.");\n'}
+[1.932742] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.932776] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.932811] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.932858] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.932902] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.932940] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.932975] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.933009] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.933044] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.933079] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.933112] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.933146] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.933335] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RotateState::exit(Walker*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.933372] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.933408] (walker) StderrLine: {'line': b'  230 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.933443] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.933477] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.933511] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.933545] (walker) StderrLine: {'line': b'  230 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.933584] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.933618] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.935730] (walker) StderrLine: {'line': b'  230 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.935779] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.935815] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.935960] (walker) StderrLine: {'line': b'  230 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.936003] (walker) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.936052] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.936097] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.936381] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.936420] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.936456] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.936491] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.936526] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.936559] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.936592] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.936632] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.936669] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.936701] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:101\x1b[m\x1b[K:\n'}
+[1.936732] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.936767] (walker) StderrLine: {'line': b'  230 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.936800] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.936834] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:230:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass RotateState\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.936884] (walker) StderrLine: {'line': b'  230 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Exiting Rotate state. Changing rotation direction.");\n'}
+[1.936920] (walker) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.937100] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:228:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kwalker\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.937139] (walker) StderrLine: {'line': b'  228 |     void exit(\x1b[01;35m\x1b[KWalker* walker\x1b[m\x1b[K) override {\n'}
+[1.937173] (walker) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.010954] (-) TimerEvent: {}
+[2.111519] (-) TimerEvent: {}
+[2.212441] (-) TimerEvent: {}
+[2.312940] (-) TimerEvent: {}
+[2.413580] (-) TimerEvent: {}
+[2.514117] (-) TimerEvent: {}
+[2.614824] (-) TimerEvent: {}
+[2.684029] (walker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.684423] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.684650] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[2.684919] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[2.685080] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.685142] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.685199] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.685243] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[2.685280] (walker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:100\x1b[m\x1b[K:\n'}
+[2.685314] (walker) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MoveForwardState; _Args = {}; _Tp = MoveForwardState]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.685351] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MoveForwardState; _Args = {}; _Tp = MoveForwardState; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MoveForwardState>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685410] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MoveForwardState; _Alloc = std::allocator<MoveForwardState>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685450] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MoveForwardState; _Alloc = std::allocator<MoveForwardState>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685486] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveForwardState>; _Args = {}; _Tp = MoveForwardState; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685523] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveForwardState>; _Args = {}; _Tp = MoveForwardState]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685560] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MoveForwardState; _Alloc = std::allocator<MoveForwardState>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685596] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MoveForwardState; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685720] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:219:65:\x1b[m\x1b[K   required from here\n'}
+[2.685769] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[KMoveForwardState\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.685806] (walker) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.685842] (walker) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685876] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:174:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[KMoveForwardState\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.685909] (walker) StderrLine: {'line': b'  174 | class \x1b[01;36m\x1b[KMoveForwardState\x1b[m\x1b[K : public State {\n'}
+[2.685942] (walker) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.685975] (walker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ana/my_gazebo_tutorials/src/walker/src/walker_node.cpp:114:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void State::handle(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686008] (walker) StderrLine: {'line': b'  114 |     virtual void \x1b[01;36m\x1b[Khandle\x1b[m\x1b[K(LaserDataCB(scan)) = 0;\n'}
+[2.686042] (walker) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.715067] (-) TimerEvent: {}
+[2.815775] (-) TimerEvent: {}
+[2.916520] (-) TimerEvent: {}
+[3.016999] (-) TimerEvent: {}
+[3.117491] (-) TimerEvent: {}
+[3.218063] (-) TimerEvent: {}
+[3.318691] (-) TimerEvent: {}
+[3.420939] (-) TimerEvent: {}
+[3.521222] (-) TimerEvent: {}
+[3.622428] (-) TimerEvent: {}
+[3.724335] (-) TimerEvent: {}
+[3.825499] (-) TimerEvent: {}
+[3.926160] (-) TimerEvent: {}
+[4.026861] (-) TimerEvent: {}
+[4.127383] (-) TimerEvent: {}
+[4.227987] (-) TimerEvent: {}
+[4.328473] (-) TimerEvent: {}
+[4.429126] (-) TimerEvent: {}
+[4.529777] (-) TimerEvent: {}
+[4.630426] (-) TimerEvent: {}
+[4.730292] (walker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/walker_node.dir/build.make:76: CMakeFiles/walker_node.dir/src/walker_node.cpp.o] Error 1\n'}
+[4.730769] (-) TimerEvent: {}
+[4.730851] (walker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/walker_node.dir/all] Error 2\n'}
+[4.731205] (walker) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.732553] (walker) CommandEnded: {'returncode': 2}
+[4.774972] (walker) JobEnded: {'identifier': 'walker', 'rc': 2}
+[4.785776] (-) EventReactorShutdown: {}

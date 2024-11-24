@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ana/my_gazebo_tutorials/build/walker
+[35m[1mConsolidate compiler generated dependencies of target walker_node[0m
+[100%] Built target walker_node
+-- Install configuration: ""
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/lib/walker/walker_node
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker//launch/walker_launch.py
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/package_run_dependencies/walker
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/parent_prefix_path/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.sh
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.sh
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/environment/path.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.bash
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.sh
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.zsh
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/local_setup.dsv
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.dsv
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/ament_index/resource_index/packages/walker
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig.cmake
+-- Up-to-date: /home/ana/my_gazebo_tutorials/install/walker/share/walker/cmake/walkerConfig-version.cmake
+-- Installing: /home/ana/my_gazebo_tutorials/install/walker/share/walker/package.xml
