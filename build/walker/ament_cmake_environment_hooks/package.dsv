@@ -1,0 +1,4 @@
+source;share/walker/local_setup.bash
+source;share/walker/local_setup.dsv
+source;share/walker/local_setup.sh
+source;share/walker/local_setup.zsh
