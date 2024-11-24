@@ -22,6 +22,7 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 
 ## Directory Structure
 
+```bash
 ├── results/ # Contains outputs from clang-tidy, build logs, and other results. 
 ├── rosbag/ # Directory where recorded bag files are stored. 
 ├── src/ 
@@ -30,7 +31,7 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 │       └── walker_node.cpp # Main walker node implementation. 
 |     └── launch/ │
 |       └── walker_launch.py # ROS2 launch file to start the walker node and simulation.
-
+```
 ## Build Instructions
 
 Clone the repository:
