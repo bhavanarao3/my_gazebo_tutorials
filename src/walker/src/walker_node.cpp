@@ -1,3 +1,10 @@
+/**
+ * @file walker_node.cpp
+ * @brief Implementation of a finite state machine for a TurtleBot3 Walker.
+ *
+ * The walker alternates between moving forward and rotating to avoid obstacles based on laser scan data.
+ */
+
 #include <geometry_msgs/msg/twist.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/laser_scan.hpp>
@@ -8,26 +15,65 @@ using std::placeholders::_1;
 // Forward declaration
 class Walker;
 
-// State interface
+/**
+ * @brief Abstract base class representing a state in the Walker's finite state machine.
+ */
 class WalkerState {
  public:
+  /**
+   * @brief Handle incoming laser scan data.
+   * 
+   * @param walker Pointer to the Walker object.
+   * @param scan The LaserScan message received.
+   */
   virtual void handleLaserScan(Walker* walker, const sensor_msgs::msg::LaserScan& scan) = 0;
+
+  /// Virtual destructor for base class.
   virtual ~WalkerState() = default;
 };
 
-// Concrete states
+/**
+ * @brief State where the robot moves forward until it detects an obstacle.
+ */
 class MovingForwardState : public WalkerState {
  public:
+  /**
+   * @brief Handles laser scan data while in the moving forward state.
+   *
+   * If an obstacle is detected in the front, the robot switches to the rotating state.
+   * 
+   * @param walker Pointer to the Walker object.
+   * @param scan The LaserScan message received.
+   */
   void handleLaserScan(Walker* walker, const sensor_msgs::msg::LaserScan& scan) override;
 };
 
+/**
+ * @brief State where the robot rotates in place to avoid obstacles.
+ */
 class RotatingState : public WalkerState {
  public:
+  /**
+   * @brief Handles laser scan data while in the rotating state.
+   *
+   * If the path ahead becomes clear, the robot switches back to the moving forward state.
+   * 
+   * @param walker Pointer to the Walker object.
+   * @param scan The LaserScan message received.
+   */
   void handleLaserScan(Walker* walker, const sensor_msgs::msg::LaserScan& scan) override;
 };
 
+/**
+ * @brief Main class representing the Walker robot node.
+ */
 class Walker : public rclcpp::Node {
  public:
+  /**
+   * @brief Constructor to initialize the Walker node.
+   *
+   * Sets up ROS2 publishers and subscribers, and initializes the finite state machine.
+   */
   Walker()
       : Node("walker_node"),
         turn_clockwise(true) {
@@ -38,10 +84,18 @@ class Walker : public rclcpp::Node {
     RCLCPP_INFO(this->get_logger(), "Walker node initialized.");
   }
 
+  /**
+   * @brief Sets the current state of the Walker.
+   * 
+   * @param new_state The new state to transition to.
+   */
   void setState(std::unique_ptr<WalkerState> new_state) {
     current_state = std::move(new_state);
   }
 
+  /**
+   * @brief Publishes a velocity command to move forward.
+   */
   void moveForward() {
     geometry_msgs::msg::Twist velocity_msg;
     velocity_msg.linear.x = 0.2;
@@ -50,6 +104,9 @@ class Walker : public rclcpp::Node {
     RCLCPP_INFO(this->get_logger(), "Moving forward...");
   }
 
+  /**
+   * @brief Publishes a velocity command to rotate in place.
+   */
   void rotateInPlace() {
     geometry_msgs::msg::Twist velocity_msg;
     velocity_msg.linear.x = 0.0;
@@ -61,15 +118,30 @@ class Walker : public rclcpp::Node {
                  velocity_msg.angular.z);
   }
 
+  /**
+   * @brief Toggles the direction of rotation (clockwise/counterclockwise).
+   */
   void toggleDirection() {
     turn_clockwise = !turn_clockwise;
     RCLCPP_INFO(this->get_logger(), "Switching rotation direction to %s",
                 turn_clockwise ? "clockwise" : "counterclockwise");
   }
 
+  /**
+   * @brief Checks if the robot is currently turning clockwise.
+   * 
+   * @return True if the robot is turning clockwise, false otherwise.
+   */
   bool isTurningClockwise() const { return turn_clockwise; }
 
  private:
+  /**
+   * @brief Callback function to handle laser scan data.
+   *
+   * Delegates processing of laser scan data to the current state.
+   * 
+   * @param scan The LaserScan message received.
+   */
   void LaserDataCB(const sensor_msgs::msg::LaserScan& scan) {
     if (scan.ranges.empty()) {
       RCLCPP_WARN(this->get_logger(), "Laser scan data is empty.");
@@ -78,10 +150,10 @@ class Walker : public rclcpp::Node {
     current_state->handleLaserScan(this, scan);
   }
 
-  rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr laser_data_sub;
-  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_pub;
-  std::unique_ptr<WalkerState> current_state;
-  bool turn_clockwise;
+  rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr laser_data_sub; ///< Laser scan subscriber
+  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_pub; ///< Velocity command publisher
+  std::unique_ptr<WalkerState> current_state; ///< Current state of the finite state machine
+  bool turn_clockwise; ///< Direction of rotation
 };
 
 void MovingForwardState::handleLaserScan(Walker* walker, const sensor_msgs::msg::LaserScan& scan) {
@@ -121,6 +193,9 @@ void RotatingState::handleLaserScan(Walker* walker, const sensor_msgs::msg::Lase
   }
 }
 
+/**
+ * @brief Main function to initialize and run the Walker node.
+ */
 int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<Walker>());
