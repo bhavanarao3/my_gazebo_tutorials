@@ -1,2 +1,0 @@
-Invoking command in '/home/ana/my_gazebo_tutorials/build/walker': /usr/bin/cmake --build /home/ana/my_gazebo_tutorials/build/walker -- -j2 -l2
-Invoked command in '/home/ana/my_gazebo_tutorials/build/walker' returned '2': /usr/bin/cmake --build /home/ana/my_gazebo_tutorials/build/walker -- -j2 -l2

@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, OpaqueFunction, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
@@ -10,16 +10,9 @@ def add_rosbag_recording(context, *args, **kwargs):
     enable_rosbag = context.perform_substitution(LaunchConfiguration('enable_rosbag'))
     if enable_rosbag.lower() == 'true':
         return [
-            Node(
-                package='ros2bag',
-                executable='record',
-                name='rosbag_record',
-                output='screen',
-                arguments=[
-                    '--all',                      # Record all topics
-                    '--exclude', '^/camera/.*',   # Exclude topics matching `/camera/*`
-                    '--output', 'rosbag'          # Name of the output bag file
-                ],
+            ExecuteProcess(
+                cmd=['ros2', 'bag', 'record', '--all', '--exclude', '^/camera/.*', '--output', 'rosbag'],
+                output='screen'
             )
         ]
     return []
